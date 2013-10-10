@@ -1,7 +1,7 @@
 zf2-tutorial-to-go
 ==================
 
-Ready to run version of the ZF2 tutorial
+Ready to run Apigility-enabled version of the ZF2 Tutorial
 
 
 Installation
@@ -9,8 +9,8 @@ Installation
 
 From the command line:
 
-    $ git clone git@github.com:akrabat/zf2-tutorial-to-go.git
-    $ cd zf2-tutorial-to-go
+    $ git clone git@github.com:akrabat/zf2-tutorial-apigility.git
+    $ cd zf2-tutorial-apigility
     $ php composer.phar self-update
     $ php composer.phar install
 
@@ -18,9 +18,9 @@ From the command line:
 Run
 ---
 
-From the command line in the ``zf2-tutorial-to-go`` directory:
+From the command line in the ``zf2-tutorial-apigility`` directory:
 
-    $ php -S 0.0.0.0:8080 -t public
+    $ php -S 0.0.0.0:8080 -t public public/index.php
 
 Now open http://localhost:8080 in your browser
 
